@@ -4,6 +4,7 @@ Xamarin bindings for RecyclerView Animators
   <img src="art/logo.jpg" width="80%">
 </p>
 
+[![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg)](https://www.nuget.org/packages/Xamarin.RecyclerView.Animators)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 RecyclerView Animators is an Android library that allows developers to easily create RecyclerView with animations.
@@ -33,7 +34,10 @@ Please feel free to use this.
 
 #### Nuget
 
-TO DO
+install via Package Manager
+> PM> Install-Package Xamarin.RecyclerView.Animators
+
+or search for it in Manage NuGet Packages in Visual Studio
 
 ## ItemAnimator
 ### Step 1
@@ -188,6 +192,7 @@ recyclerView.SetAdapter(new ScaleInAnimationAdapter(alphaAdapter));
 Developed By
 -------
 Daichi Furiya (Wasabeef) - <dadadada.chop@gmail.com>
+
 Xamarin bindings by Gabriele Coquillard (kokiddp) - <gabriele.coquillard@gmail.com>
 
 

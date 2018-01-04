@@ -1,7 +1,9 @@
 Xamarin bindings for RecyclerView Animators
 ======================
+Original Java Library: https://github.com/wasabeef/recyclerview-animators
+
 <p align="center">
-  <img src="art/logo.jpg" width="80%">
+  <img src="https://github.com/wasabeef/recyclerview-animators/raw/master/art/logo.jpg" width="80%">
 </p>
 
 [![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg)](https://www.nuget.org/packages/Xamarin.RecyclerView.Animators)
@@ -19,14 +21,10 @@ Please feel free to use this.
 # Demo
 
 ### ItemAnimator
-<img src="art/demo.gif" width="32%"> <img src="art/demo2.gif" width="32%"> <img src="art/demo3.gif" width="32%">
+<img src="https://github.com/wasabeef/recyclerview-animators/raw/master/art/demo.gif" width="32%"> <img src="https://github.com/wasabeef/recyclerview-animators/blob/master/art/demo2.gif" width="32%"> <img src="https://github.com/wasabeef/recyclerview-animators/raw/master/art/demo3.gif" width="32%">
 
 ### Adapters
-<img src="art/demo4.gif" width="32%"> <img src="art/demo5.gif" width="32%">
-
-# Samples
-
-<a href="https://play.google.com/store/apps/details?id=jp.wasabeef.example.recyclerview"><img src="http://www.android.com/images/brand/get_it_on_play_logo_large.png"/></a>
+<img src="https://github.com/wasabeef/recyclerview-animators/blob/master/art/demo4.gif" width="32%"> <img src="https://github.com/wasabeef/recyclerview-animators/blob/master/art/demo5.gif" width="32%">
 
 # How do I use it?
 
@@ -57,12 +55,12 @@ recyclerView.SetItemAnimator(animator);
 
 ## Step 2
 Please use the following  
-`notifyItemChanged(int)`  
-`notifyItemInserted(int)`  
-`notifyItemRemoved(int)`  
-`notifyItemRangeChanged(int, int)`  
-`notifyItemRangeInserted(int, int)`  
-`notifyItemRangeRemoved(int, int)`  
+`NotifyItemChanged(int)`  
+`NotifyItemInserted(int)`  
+`NotifyItemRemoved(int)`  
+`NotifyItemRangeChanged(int, int)`  
+`NotifyItemRangeInserted(int, int)`  
+`NotifyItemRangeRemoved(int, int)`  
 
 > If you want your animations to work, do not rely on calling `NotifyDataSetChanged()`; 
 > as it is the RecyclerView's default behavior, animations are not triggered to start inside this method.

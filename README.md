@@ -6,7 +6,8 @@ Original Java Library: https://github.com/wasabeef/recyclerview-animators
   <img src="https://github.com/wasabeef/recyclerview-animators/raw/master/art/logo.jpg" width="80%">
 </p>
 
-[![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg)](https://www.nuget.org/packages/Xamarin.RecyclerView.Animators)
+[![NuGet](https://img.shields.io/nuget/dt/Xamarin.RecyclerView.Animators.svg)](https://www.nuget.org/packages/Xamarin.RecyclerView.Animators)
+[![NuGet](https://img.shields.io/nuget/v/Xamarin.RecyclerView.Animators.svg)](https://www.nuget.org/packages/Xamarin.RecyclerView.Animators)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 RecyclerView Animators is an Android library that allows developers to easily create RecyclerView with animations.

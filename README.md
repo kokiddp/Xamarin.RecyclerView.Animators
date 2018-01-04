@@ -42,6 +42,7 @@ import the namespace
 
 ```c#
 using JP.Wasabeef.Recyclerview.Adapters;
+```
 
 ## ItemAnimator
 ### Step 1

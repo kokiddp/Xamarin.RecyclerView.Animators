@@ -37,6 +37,12 @@ install via Package Manager
 
 or search for it in Manage NuGet Packages in Visual Studio
 
+#### Namespace
+import the namespace
+
+```c#
+using JP.Wasabeef.Recyclerview.Adapters;
+
 ## ItemAnimator
 ### Step 1
 
